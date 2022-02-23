@@ -127,6 +127,10 @@ footer p {
 	background-color: #333;
 }
 
+p span i{
+	margin-right: 10px;
+}
+
 .icon-box {
 	margin-left: 20px;
 }
@@ -148,16 +152,16 @@ footer p {
 	color: rgb(180, 66, 137);
 }
 
-table{
+.price-table{
 	margin: auto;
 	border-spacing: 0;
 }
 
-td, th{
-	padding: 10px;
+.price-table td, th{
+	padding: 10px 30px;
 }
 
-th{
+.price-table th{
 	font-size: 18px;
 	text-transform: uppercase;
 }
@@ -182,4 +186,9 @@ ul li {
 
 .services{
 	padding-left: 30rem;
+	
+}
+
+ul li i{
+	margin-right: 10px;
 }
